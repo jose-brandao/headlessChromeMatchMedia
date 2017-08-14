@@ -39,7 +39,7 @@ const viewport = [414,736];
     Network.setUserAgentOverride({userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B137 Safari/601.1'});
 
     Page.navigate({
-        url: 'jose.brandao13.github.io'
+        url: 'https://josebrandao13.github.io/'
     });
 
     Page.loadEventFired(async () => {
