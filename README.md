@@ -8,7 +8,7 @@ Until now and there is not much documentation about Headless Chrome.
 
 After some time struggling, I found a way to make Headless Chrome to respect match media queries.
 
-This example complitely emulates an iPhone6 Plus, making match media queries working properly.
+This example completely emulates an iPhone6 Plus, making match media queries working properly.
 
 ## Setup and run
 
