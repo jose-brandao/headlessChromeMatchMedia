@@ -32,7 +32,7 @@ const viewport = [414,736];
         width: viewport[0], //Set your view port here
         height: viewport[1],
         deviceScaleFactor: 0,
-        mobile: true //Identify that you are a mobile phone
+        mobile: true //Media queries will answer as if you are a mobile phone
     });
 
     //Pass a proper user agent
