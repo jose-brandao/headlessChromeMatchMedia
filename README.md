@@ -10,6 +10,20 @@ After some time struggling, I found a way to make Headless Chrome to respect mat
 
 This example completely emulates an iPhone6 Plus, making match media queries working properly.
 
+```javascript 
+  Emulation.setDeviceMetricsOverride({
+        width: viewport.width, //Set your device view port here
+        height: viewport.height,
+        deviceScaleFactor: 0,
+        mobile: true //Media queries will answer as if you are a mobile phone
+    });
+```
+
+```javascript
+    Network.setUserAgentOverride({userAgent: 'USERAGENT'}); //Pass your device user agent
+
+```
+
 ## Setup and run
 
 Install the node modules required to run this sript:
